@@ -1,0 +1,14 @@
+# Part 1: Template section
+T = r"""<template>
+  <div class="home">
+    <HeroCarousel :slides="heroSlides" :stats="siteStats" />
+    <section class="quick-nav">
+      <div class="grid-4 stagger-group">
+        <router-link to="/characters" class="quick-card scroll-reveal" style="--accent:#c41e3a; --glow:rgba(196,30,58,0.4)">
+          <div class="card-icon-wrap">
+            <el-icon :size="28"><UserFilled /></el-icon>
+            <span class="card-badge">HOT</span>
+          </div>
+          <h3>角色図鑑</h3>
+          <p>19位角色完整资料</p>
+        </router
